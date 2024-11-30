@@ -2,17 +2,19 @@
   "name": "notes-app-back-end",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/server.js",
   "scripts": {
     "start-prod": "NODE_ENV=production node ./src/server.js",
-    "start-dev": "nodemon ./src/server.js",
+    "start": "nodemon ./src/server.js",
     "lint": "eslint ./src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint-config-google": "^0.14.0",
+    "@eslint/js": "^9.16.0",
+    "eslint": "^9.16.0",
+    "globals": "^15.12.0",
     "nodemon": "^3.0.1"
   },
   "dependencies": {
