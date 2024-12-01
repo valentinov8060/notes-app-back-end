@@ -3,3 +3,5 @@ node_modules
 
 # Files to ignore
 eslint.config.mjs
+notes-api-webserver.pem
+valentinov_credentials.csv
